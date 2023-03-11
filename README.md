@@ -19,3 +19,12 @@
 1. props로 전달되는 함수와 event listener를 구분하는 것이 중요
 2. memo를 사용해서 값이 바뀐 컴포넌트만 re-render해서 랜더링 시간을 줄일 수 있음
 - propTypes를 이용해서 props 타입 에러 여부를 점검
+
+## create-react-app
+- 설치: npx create-react-app [앱이름]
+- Component.module.css를 이용하면 Component 뿐만 아니라 CSS도 모듈화해서 관리할 수 있음
+
+## useEffect
+- 한 번만 render하거나 특정 데이터가 변경될 때만 render하도록 제어
+1. useEffect(() => {}, [])
+2. useEffect(() => {}, [state1, state2, ...])
