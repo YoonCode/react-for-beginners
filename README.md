@@ -28,3 +28,6 @@
 - 한 번만 render하거나 특정 데이터가 변경될 때만 render하도록 제어
 1. useEffect(() => {}, [])
 2. useEffect(() => {}, [state1, state2, ...])
+- clean-up function: 컴포넌트 생성 후에 컴포넌트가 파괴될 때 실행하는 콜백 함수
+1. useEffct(hiFn, [])
+2. const Fn1 = () => {hiFn; return byeFn;}
